@@ -11,6 +11,8 @@ const horizontalSearch = (matrix, word) => {
   return false;
 };
 
+console.log();
+
 const wordSearch = (letters, word) => {
 
   if (letters.length === 0) {
@@ -26,6 +28,8 @@ const wordSearch = (letters, word) => {
 
   return false;
 };
+
+
 
 
 module.exports = wordSearch;
